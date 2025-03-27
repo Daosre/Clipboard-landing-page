@@ -1,0 +1,98 @@
+/* styles/responsive.css */
+
+/* Mobile first : s'applique par défaut */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  main, section, article {
+    padding: 1rem;
+  }
+  
+  article {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  article section {
+    text-align: center;
+  }
+  
+  button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+  
+  /* Social icons dans le footer */
+  footer section:last-child {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1rem;
+  }
+  
+  /* Navigation dans le footer */
+  footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  footer li {
+    list-style: none;
+    margin: 0.25rem 0;
+  }
+  
+  /* ============================= */
+  /* ⬆ Styles par défaut = mobile */
+  /* ↓ Styles pour écran ≥ 768px  */
+  /* ============================= */
+  
+  @media (min-width: 768px) {
+    body {
+      padding: 0 2rem;
+    }
+  
+    main {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+  
+    article {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+    }
+  
+    article section {
+      flex: 1;
+      text-align: left;
+      padding-left: 2rem;
+    }
+  
+    button {
+      width: auto;
+      margin: 0.5rem;
+    }
+  
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      text-align: left;
+      padding: 2rem;
+    }
+  
+    footer section {
+      align-items: flex-start;
+    }
+  
+    footer section:last-child {
+      justify-content: flex-end;
+    }
+  }
+  

@@ -38,6 +38,8 @@ header, footer, section {
   
   footer {
     font-size: 11px;
+    background-color:var(--grayish-blue);
+    ;
   }
   
   footer a {
