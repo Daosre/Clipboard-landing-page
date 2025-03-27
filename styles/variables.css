@@ -1,0 +1,22 @@
+/* variables.css */
+
+:root {
+    /* Layout */
+    --mobile-width: 375px;
+    --desktop-width: 1440px;
+  
+    /* Colors - Primary */
+    --strong-cyan: hsl(171, 66%, 44%);
+    --light-blue: hsl(233, 100%, 69%);
+  
+    /* Colors - Neutral */
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+  
+    /* Typography */
+    --font-size-body: 18px;
+    --font-family: 'Bai Jamjuree', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+  }
+  
