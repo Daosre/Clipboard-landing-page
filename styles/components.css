@@ -12,7 +12,6 @@ button {
 button:hover {
   background-color: hsl(171, 66%, 54%);
 }
-
 .social-icons {
   display: flex;
   justify-content: center;
