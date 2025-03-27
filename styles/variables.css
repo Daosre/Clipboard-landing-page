@@ -10,7 +10,7 @@
     --light-blue: hsl(233, 100%, 69%);
   
     /* Colors - Neutral */
-    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --dark-grayish-blue: hsla(212, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
   
     /* Typography */
